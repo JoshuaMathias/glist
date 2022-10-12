@@ -4,7 +4,7 @@ name = "glist"
 path = name.lower().replace("-", "_").replace(" ", "_")
 # Your version number should follow https://python.org/dev/peps/pep-0440 and
 # https://semver.org
-version = "0.1.dev0"
+version = "0.1.dev1"
 author = "Joshua Mathias"
 author_email = "joshuaamathias@gmail.com"
 description = "Read and write from Google Sheets as if it were a csv."  # One-liner
