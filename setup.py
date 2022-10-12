@@ -194,7 +194,7 @@ setup(
     entry_points={
         "console_scripts": [f"{meta['path']}={meta['path']}:start_command_line"],
     },
-    scripts=["install.py"],
+    scripts=[path.join(repo_root, "install.py")],
     # END repo_utils addition
     # If any package contains *.txt or *.rst files, include them:
     # package_data={"": ["*.txt", "*.rst"],}
